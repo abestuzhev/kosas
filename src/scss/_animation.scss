@@ -1,0 +1,191 @@
+@keyframes showCol {
+  0% {
+    height: 0;
+  }
+  100% {
+    width: auto;
+  }
+}
+
+@keyframes background {
+  50% {
+    box-shadow: 0 -2000px 1000px -1000px #0D81D8 inset;
+  }
+}
+
+@keyframes background-2 {
+  //0% {
+  //  opacity: 0;
+  //}
+  50% {
+    opacity: 1;
+    box-shadow: 0 1000px 500px -500px #0D81D8 inset;
+    //background: linear-gradient(275deg, #1EBDFE 99.77%, #0D81D8 0.29% );
+  }
+}
+
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 90%
+  }
+  50% {
+    background-position: 100% 11%
+  }
+  100% {
+    background-position: 0% 90%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 90%
+  }
+  50% {
+    background-position: 100% 11%
+  }
+  100% {
+    background-position: 0% 90%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 90%
+  }
+  50% {
+    background-position: 100% 11%
+  }
+  100% {
+    background-position: 0% 90%
+  }
+}
+
+
+@keyframes scaleUp {
+  0% {
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    transform: scale(0.6);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUpOp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.a-animation {
+  .a-turn {
+    opacity: 0;
+  }
+}
+
+
+.a-animation .a-turn-1 {
+  -webkit-animation: .4s fadeInUp .5s forwards;
+  animation: .4s fadeInUp .5s forwards;
+}
+
+.a-animation .a-turn-2 {
+  -webkit-animation: .5s fadeInUp .7s forwards;
+  animation: .5s fadeInUp .7s forwards;
+}
+
+.a-animation .a-turn-3 {
+  -webkit-animation: .5s fadeInUp .8s forwards;
+  animation: .5s fadeInUp .8s forwards;
+}
+
+.a-animation .a-turn-4 {
+  -webkit-animation: .55s fadeInUp .85s forwards;
+  animation: .55s fadeInUp .85s forwards;
+}
+
+.a-animation .a-turn-5 {
+  -webkit-animation: .57s fadeInUp .9s forwards;
+  animation: .57s fadeInUp .9s forwards;
+}
+
+.a-animation .a-turn-6 {
+  -webkit-animation: .59s fadeInUp .95s forwards;
+  animation: .59s fadeInUp .95s forwards;
+}
+
+
+.btn-liquid {
+  display: inline-block;
+  position: relative;
+  width: 240px;
+  height: 60px;
+
+  border-radius: 27px;
+
+  color: #fff;
+  font: 700 14px/60px "Droid Sans", sans-serif;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-liquid .inner {
+  position: relative;
+
+  z-index: 2;
+}
+
+.btn-liquid canvas {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  bottom: -50px;
+  left: -50px;
+
+  z-index: 1;
+}

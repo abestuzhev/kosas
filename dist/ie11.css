@@ -1,0 +1,19 @@
+.service-card__title {
+  color: #36F298;
+  background: none !important;
+}
+
+.section-cost .cost-plane--standart .cost-plane__title {
+  color: #36F298;
+  background: none !important;
+}
+
+.section-cost .cost-plane--business .cost-plane__title {
+  color: #0D81D8;
+  background: none !important;
+}
+
+.section-cost .cost-plane--maximum .cost-plane__title {
+  color: #DB40A2;
+  background: none !important;
+}
